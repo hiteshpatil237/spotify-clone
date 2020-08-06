@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <DataLayer initalState={initialState} reducer={reducer}>
+    <DataLayer initialState={initialState} reducer={reducer}>
       <App />
     </DataLayer>
   </React.StrictMode>,
